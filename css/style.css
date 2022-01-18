@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*-----------font-------*/
+body{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: .006em;
+    color: rgb(19, 19, 19);
+    background-color: rgb(247, 234, 245);
+}
+    /* font-family: 'FUNGIS-Regular';
+    src: local('FUNGIS Regular.otf') */
+
+@font-face {
+    font-family: 'AkzidenzGrotesk-Medium';
+    src: local('AkzidenzGrotesk-Medium.otf');
+
+}
+h2{
+    font-family: 'AkzidenzGrotesk-Medium';
+}
+
+/*-------header--------*/
+
+header{
+    top: 0;
+    width: 100%;
+}
+.header__logo{
+    width: 10 rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+}
+.header__nav{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header__nav li{
+    display: inline-block;
+    justify-content: space-around;
+
+}
+.header__nav a{
+    text-decoration: none;
+    color: #737EC9;
+    font-size: 1.5rem;
+}
+/*---------main-------*/
+
+/* main{
+    display: grid;
+    grid-template-columns: 30rem;
+} */
+ 
+.main__container{
+    /* display: flex;
+    align-self: auto;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    width: 100%;
+    margin: 5rem;
+    gap: 2rem; 
+}
+.main__container__item{
+    box-sizing: border-box;
+}
+.main__container__item a{
+    text-decoration: none;
+    color: black;
+}
+.main__container__img{
+    width: 100%;
+}
+
+.main__contacto{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 10%;
+}
+
+/*-----animacion-----*/ 
+
+ 
+.main__container__img:hover{
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    /* mix-blend-mode: difference; */
+    mix-blend-mode: exclusion;
+}
+
+/*------media-----*/
+
+
+/*----- vista celular ------*/
+@media only screen and (max-width: 767px){
+    .main__container{
+        display: grid;
+        grid-template-columns: 40% 40%
+
+    }
+    header{
+        display: flex;
+        justify-content: flex-start;
+        width: 1rem;
+    }
+    body{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.5rem;
+        margin: 1rem;
+    }
+    .header__logo{
+        width: 5rem;
+        height: auto;
+        margin: 5rem;
+    }
+    .header__nav a{
+        text-decoration: none;
+        color: #737EC9;
+        font-size: 0.7rem;
+    }
+    .header__nav li{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 5rem;
+    }
+    .header__logo{
+        width: 10 rem;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin: 1px;
+    }
+    /* .gridContainer{
+        display: grid;
+        grid-template-areas: 
+        "logo"
+        "nav main__container main__container"
+        "nav main__container main__container"
+        "nav main__container main__container"
+        "nav main__container main__container"
+        grid-template-rows: auto auto auto auto auto;
+        grid-row-gap: 1px;
+    } */
+}
+
+/*----- vista desktop ------*/
+@media only screen and (min-width: 1024px){
+
+
+}
+
+/* vista tablet */
+
