@@ -29,12 +29,12 @@ h2{
 
 /*-------header--------*/
 
-header{
+/* header{
     top: 0;
     width: 100%;
     background: rgb(233,241,183);
     background: linear-gradient(319deg, rgba(233,241,183,1) 0%, rgba(190,197,243,1) 21%, rgba(233,241,183,1) 56%, rgba(82,72,140,1) 84%); 
-}
+} */
 .header__logo{
     width: 10 rem;
     height: auto;
