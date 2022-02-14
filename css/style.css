@@ -18,7 +18,7 @@ body{
     /* font-family: 'FUNGIS-Regular';
     src: local('FUNGIS Regular.otf') */
 
-@font-face {
+    @font-face {
     font-family: 'AkzidenzGrotesk-Medium';
     src: local('AkzidenzGrotesk-Medium.otf');
 
@@ -42,22 +42,20 @@ h2{
     justify-content: center;
     margin: 7px;
 }
-.header__nav{
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.header__nav li{
-    display: inline-block;
-    justify-content: space-around;
 
+/* PALETA COLOR
+#8D76D7 --violeta
+#FF6B15 --naranja
+*/
+
+.button__button1{
+    border-color: #8D76D7;
+    border: 3px;
+    display: inline-block;
+    border-radius: 30rem;
+    margin: 1rem
 }
-.header__nav a{
-    text-decoration: none;
-    color: #737EC9;
-    font-size: 1.5rem;
-}
+
 /*---------main-------*/
 
 /* main{
@@ -78,10 +76,7 @@ h2{
 .main__container__item{
     box-sizing: border-box;
 }
-.main__container__item a{
-    text-decoration: none;
-    color: black;
-}
+
 .main__container__img{
     width: 100%;
 }

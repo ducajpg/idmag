@@ -1,0 +1,40 @@
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header__nav li {
+  display: inline-block;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: #737EC9;
+  font-size: 1.5rem;
+}
+
+.main__container {
+  -ms-grid-columns: 20% 20% 20% 20%;
+      grid-template-columns: 20% 20% 20% 20%;
+  width: 100%;
+  margin: 5rem;
+  gap: 2rem;
+}
+
+.main__container a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  color: #8D76D7;
+}
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,28 @@
+.header__nav{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    li{
+        display: inline-block;
+        justify-content: space-around;
+    }
+    a{
+        text-decoration: none;
+        color: #737EC9;
+        font-size: 1.5rem;
+    }
+}
+
+.main__container{
+    grid-template-columns: 20% 20% 20% 20%;
+    width: 100%;
+    margin: 5rem;
+    gap: 2rem; 
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+@import "contenido";
