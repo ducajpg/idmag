@@ -1,0 +1,11 @@
+/*---extend---*/
+
+.extend{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.extend_dos{
+    @extend .extend;
+}

@@ -1,0 +1,13 @@
+/*-----MIXIN----*/
+@mixin parrafos {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: .006em;
+    color: rgb(19, 19, 19);
+    background-color: rgb(247, 234, 245);
+}
+
+.parrafos_mixin{
+    @include parrafos;
+}
